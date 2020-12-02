@@ -1,0 +1,139 @@
+body {
+    margin: 10px;
+}
+h2 {
+    font-family: 'Khula', sans-serif;
+}
+
+h4 {
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li > a {
+   
+    text-decoration: none;
+    margin: 10px;
+    padding: 16px;
+    color: ghostwhite;
+   
+
+}
+
+#header {
+display: flex;
+justify-content: space-between;
+background-color: deepskyblue;
+font-family: 'Khula', sans-serif;
+color: ghostwhite;
+}
+
+img{
+width:350px;
+height: 200px;
+flex:33%;
+margin:20px;
+}
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: orangered;
+    color: white;
+    transition: all 200ms ease;
+
+
+}
+#buttons li {
+    margin-right: 30px;
+    width: 100px;
+    line-height: 40px;
+    background: lightseagreen;
+    border-radius: 10px;
+}
+#top-three-places{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex: 30%;
+    border-color: black;
+    border:30px;
+    padding: 30px;
+
+}
+
+#places-form {
+    display: flex;
+    margin: 10px;
+    background-color: black;
+    color:white; 
+}
+
+#date{
+    background:black;
+    color:white;
+    font-weight: bold;
+}
+#travel{
+    background:black;
+    color:white;
+    font-weight: bold;
+}
+#where{
+    background:black;
+    color:white;
+    font-weight: bold;
+}
+
+#destinations-header {
+    grid-area: destinations-header;
+}
+
+#grid-image-1 {
+    grid-area: grid-image-1;
+    border-radius: 5px;
+}
+
+#grid-image-2 {
+    grid-area: grid-image-2;
+    border-radius: 5px;
+}
+
+#grid-image-3 {
+    grid-area: grid-image-3;
+    border-radius: 5px;
+}
+
+#grid-image-4 {
+    grid-area: grid-image-4;
+    border-radius: 5px;
+} 
+
+#grid-image-5 {
+    grid-area: grid-image-5;
+    border-radius: 5px;
+}
+
+#grid-image-6 {
+    grid-area: grid-image-6;
+    border-radius: 5px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas:
+    'destinations-header destinations-header destinations-header'
+    'grid-image-1 grid-image-2 grid-image-3'
+    'grid-image-4 grid-image-5 grid-image-6'
+
+}
